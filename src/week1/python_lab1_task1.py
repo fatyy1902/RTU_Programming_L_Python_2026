@@ -38,12 +38,16 @@ def circle_area(radius: float) -> float:
 
     return math.pi * radius ** 2
 
+    raise NotImplementedError("circle_area() is not implemented yet")
+
 
 if __name__ == "__main__":
     # Keep all input() calls inside this block, otherwise the autograder
     # cannot import your file.
     # TODO: ask for user input, call circle_area(), and print formatted result
 
-    radius = float(input("Enter radius : "))
-    area = circle_area(radius)
-    print(f"Area of the circle: {area:.2f}")
+     radius = float(input("Enter radius : "))
+     area = circle_area(radius)
+     print(f"Area of the circle: {area:.2f}")
+
+pass
